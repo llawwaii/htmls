@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  
     <meta charset="utf-8">
     <title>UWMCCF</title>
-  	<!-- Bootstrap -->
+    <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="ddmenu.js" type="text/javascript"></script>
+    
 
   </head>
-  <body>
+    <body>
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+      <div id="title" class="title">
+        <div class="container">
+          <h1>UWMCCF</h1>
+        </div>
+      </div>
+    <nav id="menu" class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-center">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="prayer_wall.html">Prayer Wall</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li class="active dropdown"><a id="resource_button" href="about_us.html" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a id="Mission_button" href="#">Mission Statement</a></li>
+              <li><a id="History_button" href="#">History of MCCF</a></li>
+              <li><a id="Constitution_button" href="#">Constitution</a></li>
+              <li><a id="MainProgramsandAttendants_button" href="#">Main Programs and Attendants</a></li>
+            </ul>
+          </li>
+          <li><a href="mccfer.html">MCCFer</a></li>
+        </ul>
+      </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+<!--   <body>
     <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
       <div class="title">
         <div class="container">
@@ -38,6 +71,14 @@
             </li>
             <li class="active">
               <a href="about_us.html">About Us</a>
+                <select class="form-control" style="color:blue" id="activity">
+                  <option value="Code">writing code</option>
+                  <option value="Dinner">eating dinner</option>
+                  <option value="Sports">playing sports</option>
+                  <option value="Exams">studying for exams</option>
+                  <option value="Lectures">attending lectures</option>
+                  <option value="TV">watching TV</option>
+                </select>
             </li>
             <li>
               <a href="mccfer.html">MCCFer</a>
@@ -46,6 +87,80 @@
         </nav>
       </div>
     </header>
-  </body>
+  </body> -->
+
+
+
   <!-- This is where the content of the page go. -->
+
+  <div class="row">
+  <div id="Mission_button">
+
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+
+        <div><label for="Mission_Statement_Title" style="color:blue; font-size:30px" class="control-label">Mission Statement</label></div><br>
+
+
+        <div><label for="Mission_Statement_Content" class="control-label">The purpose of Mandarin Chinese Christian Fellowship (MCCF) is to be a witness for Christ on campus. First, it is to be a fellowship that helps spread the Christian gospel to the students on campus. We have a special focus on mandarin speaking students because we can connect with them better in terms of language and culture. Secondly, MCCF has been striving to become a club where members can come to have Christian fellowship with one another. Through which, most importantly, one’s relationship with God deepens, and is then expressed in worship, love and good deeds among other things.</label></div>
+        
+    </div>
+    <div class="col-sm-3"></div>
+
+
+  </div>
+  </div> <!-- row -->
+
+  <br><br><br><br><br>
+
+  <div class="row">
+  <div id="History_button">
+    
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+
+        <div><label for="Mission_Statement_Title" style="color:blue; font-size:30px" class="control-label">History of MCCF</label></div><br>
+
+        <div><label for="Recent_MCCF_Title" style="color:blue; font-size:20px" class="control-label">Recent History of MCCF</label></div>
+
+        <div><label for="Recent_MCCF_Content" class="control-label">MCCF was started by a group of Cantonese and Mandarin speaking students who were originally attending CCF in around 2000. They saw the need of a Mandarin fellowship on campus, and started it after much prayer. Most of them learned Mandarin just to serve the Madanrin speaking students on campus. Over the past few years, MCCF has seen some tremendous growth. The number of attendees grew from just over 20 to about 40 within the past two years.</label></div>
+
+        <br>
+
+        <div><label for="Constitutional_Status_Title" style="color:blue; font-size:20px" class="control-label">Constitutional Status</label></div>
+
+        <div><label for="Constitutional_Status_Content" class="control-label">In 2013 Spring, MCCF has officially became a FEDS club. In 2011 and past, MCCF was officially a part of CCF under the CCF Constitution. This created inconveniences when we collaborated with external sources. Since our collaboration with Kitchener-Waterloo Chinese Alliance Church (KWCAC) began in September 2011 (explained below), we have been in the process of creating our own Constitution and becoming an independent Federation of Students (FEDS) club. All clubs on UW campus belong to FEDS.</label></div>
+
+        <br>
+
+        <div><label for="Collaboration_Title" style="color:blue; font-size:20px" class="control-label">Collaboration with Local Churches</label></div>
+
+        <div><label for="Collaboration_Content" class="control-label">MCCF was started by a group of As MCCF grew larger, the need for a spiritual councilor and authority in our midst to guide and correct us arose. Naturally, we sought help from KWCAC, the largest Chinese speaking church in Waterloo. After many meetings and discussions during the summer of 2011, trial collaboration was established. Between September 2011 and April 2012, Ping Situ (司徒萍) from KWCAC is assigned to council the MCCF ministry. We benefited very much from her wisdom, insight, and support. A couple of uncles and aunties at KWCAC also started to come to MCCF every now and then, to better understand the life of a student. As Situ left for the US, we had Pastor Gui from KWCAC temporarily oversaw MCCF. In 2014, KWCAC hired a youth pastor and Lincoln Road Chapel hired a Chinese pastor, in which both churches provide college/youth fellowships at their locations, hoping to provide a "spiritual home" or "home church" for students so that they can grow spiritually under the pastor and church's supervision. The pastors from both churches provide us guidance while MCCF remains as an independent decision maker in the process. The uncles/aunties also join our pre-study/bible study. We pray and trust that God is doing His mighty work through us all.</label></div>
+        
+    </div>
+    <div class="col-sm-3"></div>
+
+  </div>
+
+  
+  </div> <!-- row -->
+  <br><br><br><br><br>
+
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
